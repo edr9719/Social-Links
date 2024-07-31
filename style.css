@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Inter", sans-serif;
+  color: hsl(0, 0%, 100%);
+  background-color: black;
+}
+
+/*======================*/
+/*SOCIAL LINKS CONTAINER*/
+/*======================*/
+
+.social-links-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 10px;
+}
+
+.profile-pic {
+  display: flex;
+  justify-content: center;
+  margin: 25px 0;
+}
+
+.profile-pic img {
+  border-radius: 50%;
+  width: 50%;
+}
+
+/*======================*/
+/* BIOGRAPHY CSS STYLES */
+/*======================*/
+
+.bio-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bio-text h2 {
+  margin-bottom: 5px;
+}
+.bio-text h5 {
+  display: flex;
+  justify-content: center;
+  letter-spacing: 0.6px;
+  color: hsl(75, 94%, 57%);
+  margin-bottom: 30px;
+}
+
+/*========================*/
+/* MEDIA LINKS CSS STYLES */
+/*========================*/
+
+.media-links {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.media-links p {
+  font-size: 14px;
+  color: hsl(0, 0%, 90%);
+  margin-bottom: 25px;
+}
+
+.link-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  background-color: hsl(0, 0%, 20%);
+}
+
+/*========================*/
+/*   DESKTOP CSS STYLES   */
+/*========================*/
+
+@media (min-width: 375px) {
+  .social-links-container {
+    max-width: 331px;
+  }
+}
